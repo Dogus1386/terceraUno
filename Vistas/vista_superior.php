@@ -21,12 +21,12 @@
   <div class="menu-derecha">
    <div class="menu-container">
     <div class="menu-normal">
-  <a href="">Inicio</a>
-  <a href="">Tipo</a>
-  <a href="">Verano</a>
-  <a href="">Invierno</a>
-  <a href="">Noche</a>
-  <a href="">Dia</a>
+  <a href="./inicio.php">Inicio</a>
+  <a href="./tipo.php">Tipo</a>
+  <a href="./verano.php">Verano</a>
+  <a href="./invierno.php">Invierno</a>
+  <a href="./noche.php">Noche</a>
+  <a href="./dia.php">Dia</a>
 
 </div>
 <div class="hamburger-icon">

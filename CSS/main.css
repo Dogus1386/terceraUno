@@ -1,23 +1,24 @@
 * {
 
-    padding: 0;
+  padding: 0;
 
-    margin: 0;
+  margin: 0;
 
 }
 
-body{
-
+body {
   background-color: white;
+
+
 }
 
 menu {
 
-    width: 100%;
-    height: 100px;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
 
 
 
@@ -25,47 +26,56 @@ menu {
 
 .menu-izquierda {
 
-    width: 150px;
-    height: 100%;
-    background-color: aqua;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-
+  width: 150px;
+  height: 100%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
 
 }
 
 .menu-derecha {
 
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
 }
 
 .menu-derecha a {
 
-    width: 80px;
-    height: 25px;
-    text-decoration: none;
-    position: relative;
+  width: 85px;
+  height: 25px;
+  text-decoration: none;
+  position: relative;
+  padding: 10px 16px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 4px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 2px 2px 2px white; /* brillo leve */
 
-    color: white;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 5px;
 
 }
 
+.menu-derecha a:hover {
+  background-color: #222;
+  /* se aclara un poco */
+  box-shadow: 0 0 15px white;
+  /* brillo fuerte al pasar el mouse */
+}
+
 .menu-normal {
-    display: flex;
+  display: flex;
 
 
 
@@ -74,58 +84,56 @@ menu {
 
 @media screen and (max-width: 1000px) {
 
-    .menu-container {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-content: center;
+  .menu-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
 
-    }
+  }
 
-    .menu-normal {
+  .menu-normal {
 
-        display: none;
-    }
+    display: none;
+  }
 
-    .hamburger-icon {
-        width: 50px;
-        height: 35px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        background-color: blue;
-        margin-right: 20px;
-
-
-    }
-
-    .hamburger-icon span {
-        background-color: white;
-        width: 100;
-        height: 6px;
-        display: block;
-        border-radius: 3px;
-    }
-
-.menu-container.menu-open .menu-normal {
-  display: flex;              
-  flex-direction: column;
-  justify-content: center;
+  .hamburger-icon {
+    width: 50px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(42, 42, 191);
+    margin-right: 20px;
 
 
+  }
 
- 
-  background-color: black;
-  z-index: 2;
-  width: auto;
-  height: auto;
-  margin: 250px 30px 0 0;
-  padding: 20px;
-  border-radius: 20px;
-  border: 2px solid white;
-}
+  .hamburger-icon span {
+    background-color: white;
+    width: 100;
+    height: 6px;
+    display: block;
+    border-radius: 3px;
+
+  }
+
+  .menu-container.menu-open .menu-normal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: black;
+    z-index: 2;
+    width: auto;
+    height: auto;
+    margin: 350px 30px 0 0;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+  }
 
 
 
