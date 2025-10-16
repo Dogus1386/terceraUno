@@ -1,4 +1,3 @@
-Vista Superior
 
 <!DOCTYPE html>
 <html lang="Spanish">
@@ -7,18 +6,12 @@ Vista Superior
     <meta charset="utf-8">
     <meta name="Tercera 1" content="Proyecto Universitario">
     <title>Tercera 1</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./CSS/main.css">
 
 
 </head>
 
-
-
-
 <menu>
-
-
-
   <div class="menu-izquierda">
  <img src="./img/logo.jpeg" alt="" height="80">
 
@@ -26,13 +19,14 @@ Vista Superior
   </div>
 
   <div class="menu-derecha">
-   <div class="menu-derecha">
+   <div class="menu-container">
+    <div class="menu-normal">
   <a href="">Inicio</a>
   <a href="">Tipo</a>
   <a href="">Verano</a>
-  <a href="">invierno</a>
+  <a href="">Invierno</a>
   <a href="">Noche</a>
-  <a href="">dia</a>
+  <a href="">Dia</a>
 
 </div>
 <div class="hamburger-icon">
@@ -40,10 +34,10 @@ Vista Superior
     <span></span>
     <span></span>
 
-
+     </div>
    </div>
 </div>
-</div>
+
 </menu>
 
 

@@ -4,8 +4,11 @@
 
     margin: 0;
 
+}
 
+body{
 
+  background-color: white;
 }
 
 menu {
@@ -13,6 +16,8 @@ menu {
     width: 100%;
     height: 100px;
     background-color: black;
+    display: flex;
+    flex-direction: row;
 
 
 
@@ -20,9 +25,14 @@ menu {
 
 .menu-izquierda {
 
-    width: 50%;
+    width: 150px;
     height: 100%;
-    background-color: green;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
 
 
 
@@ -30,18 +40,22 @@ menu {
 
 .menu-derecha {
 
-    width: 50%;
+    width: 100%;
     height: 100%;
-    background-color: yellow;
-    box-shadow: 5px 5px 0 0 white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .menu-derecha a {
 
-    width: 60px;
+    width: 80px;
     height: 25px;
     text-decoration: none;
+    position: relative;
 
     color: white;
     font-weight: bold;
@@ -59,9 +73,10 @@ menu {
 }
 
 @media screen and (max-width: 1000px) {
+
     .menu-container {
         width: 100%;
-        height: 100%;
+        height: auto;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
@@ -75,8 +90,8 @@ menu {
     }
 
     .hamburger-icon {
-        width: 40px;
-        height: 30px;
+        width: 50px;
+        height: 35px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -94,28 +109,24 @@ menu {
         border-radius: 3px;
     }
 
-    .menu-container.menu-open.menu-normal {
-
-        padding: 0;
-        background-color: black;
-        z-index: 2;
-        width: auto;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 250px 30px 0 0;
-        padding: 20px;
-        border-radius: 20px;
-        border: 2px solid white;
-        
+.menu-container.menu-open .menu-normal {
+  display: flex;              
+  flex-direction: column;
+  justify-content: center;
 
 
 
+ 
+  background-color: black;
+  z-index: 2;
+  width: auto;
+  height: auto;
+  margin: 250px 30px 0 0;
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid white;
+}
 
-
-
-    }
 
 
 }
