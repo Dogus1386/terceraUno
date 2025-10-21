@@ -11,3 +11,5 @@ Pagina Verano
 <?php require_once "./Vistas/vista_inferior.php"?>
 
 
+
+

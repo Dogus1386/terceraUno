@@ -3,7 +3,12 @@
 <?php require_once "./Vistas/vista_superior.php"?>
 
 
-Pagina Principal 
+<body>
+
+<div class="card-list"></div>
+
+
+</body>
 
 
 
