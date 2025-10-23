@@ -2,24 +2,24 @@ console.log("Cards Cargado");
 
 const dataCards = [
     {
-        "title": "Juego del año",
+        "title": "Bolso Casual",
         "url_image": "./img/bolsodia.png",
         "desc": "El mas vendido segun la revista morales.",
         "cta": "Mostrar más...",
         "link": "./dia.php"
     },
     {
-        "title": "Xbox",
+        "title": "Bolso Noche",
         "url_image": "./img/bolsonoche.png",
         "desc": "Variedad de Exclusivos",
         "cta": "Mostrar más...",
         "link": "./noche.php"
     },
     {
-        "title": "Playstation",
-        "url_image": "./img/bolsoverano.jpg",
+        "title": "Bolso Verano",
+        "url_image": "./img/bolsoverano.png",
         "desc": "Nueva Temporada",
-        "cta": "Mostrar más...",
+        "cta": "Mostrar más...", 
         "link": "./verano.php"
     }
 ];

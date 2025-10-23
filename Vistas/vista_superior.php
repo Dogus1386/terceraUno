@@ -14,7 +14,7 @@
 
 <menu>
   <div class="menu-izquierda">
- <img src="./img/logo.jpeg" alt="" height="80">
+ <img src="./img/logo3.png" alt="" height="90" width="100">
 
 
   </div>
@@ -22,7 +22,7 @@
   <div class="menu-derecha">
    <div class="menu-container">
     <div class="menu-normal">
-  <a href="./inicio.php">Inicio</a>
+  <a href="./index.php">Inicio</a>
   <a href="./tipo.php">Tipo</a>
   <a href="./verano.php">Verano</a>
   <a href="./invierno.php">Invierno</a>
